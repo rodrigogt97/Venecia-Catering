@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body {
+    font-family: Open Sans;
+    margin: 0;
+    text-align: justify;
+}
+
+.menu {
+    background-color: #f6fde8;
+    display: flex;
+    justify-content: center;
+}
+
+.articulo {
+    background-color: white;
+    width: 70%;
+    font-size: 1.3vw;
+    padding: 40px 25px;
+}
+
+/* media para pantallas medianas */
+
+@media screen and (min-with: 601px) and (max-with: 1024px) {
+    .articulo {
+        font-size: 1.7vw;
+    }
+    .pie-pagina {
+        font-size: 1.7vw;
+    }
+}
+
+/* media query para pantallas pequenas */
+
+@media screen and (max-with: 600px) {
+    .articulo{
+        font-size: 2.4vw;
+    }
+    .pie-pagina {
+        font-size: 2.4vw;
+    }
+}
